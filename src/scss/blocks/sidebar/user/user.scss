@@ -1,0 +1,16 @@
+.user {
+  display: flex;
+  align-items: center;
+  &__img {
+    margin-right: 6px;
+    width: 30px;
+    height: 30px;
+  }
+  &__info {
+    display: flex;
+    flex-direction: column;
+  }
+  &__status {
+    font-size: 12px;
+  }
+}

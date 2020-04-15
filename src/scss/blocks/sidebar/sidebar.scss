@@ -1,0 +1,22 @@
+@import './user/user.scss';
+
+.sidebar {
+  position: fixed;
+  top: 50px;
+  width: 200px;
+  background-color: #f1f1f1;
+  height: 100%;
+  padding: 12px;
+  &__user {
+    margin-bottom: 9px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .sidebar {
+    display: none;
+  }
+}

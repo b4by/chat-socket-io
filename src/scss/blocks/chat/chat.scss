@@ -1,0 +1,17 @@
+@import './chat-input/chat-input.scss';
+@import './chat-message/chat-message.scss';
+
+.chat {
+  height: calc(100% - 56px);
+  &__messages {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 16px;
+    height: calc(100% - 72px);
+    overflow-y: scroll;
+  }
+  &__message {
+    margin: 5px 0;
+  }
+}

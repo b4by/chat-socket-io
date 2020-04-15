@@ -1,0 +1,24 @@
+.message {
+  position: relative;
+  width: 100%;
+  padding: 15px;
+  background: #FFFFFF;
+  border: 1px solid rgba(112, 124, 151, 0.25);
+  border-radius: 15px;
+  border-bottom-right-radius: 0;
+  box-shadow: 15px 15px 35px rgba(112, 124, 151, 0.05), 10px 10px 25px rgba(112, 124, 151, 0.05);
+  &__username {
+    display: inline-block;
+  }
+  &__content {
+    width: 100%;
+    word-break: break-all;
+  }
+  &__date {
+    position: absolute;
+    right: 10px;
+    bottom: 5px;
+    font-size: 14px;
+    color: #d1d1d1;
+  }
+}

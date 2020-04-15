@@ -1,0 +1,17 @@
+.page-main {
+  display: flex;
+  &__chat {
+    position: absolute;
+    left: 200px;
+    width: calc(100% - 200px);
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .page-main {
+    &__chat {
+      left: 0;
+      width: 100%;
+    }
+  }
+}

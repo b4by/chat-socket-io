@@ -1,0 +1,29 @@
+// Normalize.css
+@import "~normalize.css";
+
+// Base
+@import './base/base';
+
+// Library
+@import './lib/scrollbar.scss';
+
+// Blocks
+@import './blocks/page-login/page-login.scss';
+@import './blocks/page-header/page-header.scss';
+@import './blocks/page-main/page-main.scss';
+@import './blocks/page-footer/page-footer.scss';
+@import './blocks/sidebar/sidebar.scss';
+@import './blocks/chat/chat.scss';
+@import './blocks/message/message.scss';
+@import './blocks/notify/notify.scss';
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  background: linear-gradient(180deg, #F3F3FB 0%, #FDFBFD 100%);
+}
+
+.wrapper {
+  position: relative;
+  height: 100vh;
+}
