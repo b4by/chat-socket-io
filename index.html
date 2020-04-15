@@ -2,7 +2,7 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <link rel="preload" href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700&display=swap&subset=cyrillic" rel="stylesheet" as="style">
   <link rel="shortcut icon" href="/assets/favicon/favicon.ico" type="image/x-icon">
   <title>Chat</title>
@@ -39,17 +39,15 @@
         <ul class="chat__messages" id="chat-container">
           <!-- <li class="chat__message message">Template</li> -->
         </ul>
+        <form id="chat-form" class="chat__form chat-form">
+          <div class="chat-form__line"></div>
+          <span class="chat-form__file"></span>
+          <input class="chat-form__input" type="text" id="chat-input" placeholder="Type a message here" autocomplete="off"/>
+          <span class="chat-form__emoji"></span>
+          <button type="submit" class="chat-form__send-btn"></button>
+        </form>
       </section>
     </main>
-    <footer class="page-footer">
-      <form id="send-message__form" class="page-footer__chat-input chat-input">
-        <div class="chat-input__line"></div>
-        <span class="chat-input__file"></span>
-        <input class="chat-input__text" type="text" id="send-message__input" placeholder="Type a message here" autocomplete="off"/>
-        <span class="chat-input__emoji"></span>
-        <button type="submit" class="chat-input__send" id="chat-input__send"></button>
-      </form>
-    </footer>
   </div>
   <script src="/socket.io/socket.io.js"></script>
 </body>

@@ -1,4 +1,4 @@
-.chat-input {
+.chat-form {
   position: relative;
   overflow: hidden;
   &__line {
@@ -31,7 +31,7 @@
       transform: translate(-50%, -50%);
     }
   }
-  &__text {
+  &__input {
     position: relative;
     margin-left: 60px;
     border: 0;
@@ -60,9 +60,7 @@
       height: 24px;
     }
   }
-  &__send {
-    // display: none;
-    // opacity: 0;
+  &__send-btn {
     border: 0;
     cursor: pointer;
     content: '';

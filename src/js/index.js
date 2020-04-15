@@ -58,9 +58,9 @@ window.addEventListener('DOMContentLoaded', function() {
 
   // Add New Message To Chat
 
-  let messageForm = document.getElementById('send-message__form')
-  let messageInput = document.getElementById('send-message__input')
   let messagesContainer = document.getElementById('chat-container')
+  let messageForm = document.getElementById('chat-form')
+  let messageInput = document.getElementById('chat-input')
 
   messageForm.addEventListener('submit', (e) => {
     e.preventDefault();
