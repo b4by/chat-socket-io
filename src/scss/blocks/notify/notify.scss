@@ -1,7 +1,8 @@
 .notify {
+  display: block;
   text-align: center;
-  margin: 5px auto;
   &__content {
+    display: inline-block;
     font-size: 12px;
     background: #fff;
     border: 1px solid rgba(112,124,151,.25); 
