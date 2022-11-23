@@ -46,6 +46,6 @@
     "@babel/polyfill": "^7.8.7",
     "express": "^4.17.1",
     "normalize.css": "^8.0.1",
-    "socket.io": "^2.3.0"
+    "socket.io": "^2.5.0"
   }
 }
